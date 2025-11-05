@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="caption">HOME</h3>
+                <div class="box">
+                    <h1 class="scores" id="home-el">0</h1>
+                </div>
+                <div>
+                    <button onclick="add1Home()">+1</button>
+                    <button onclick="add2Home()">+2</button>
+                    <button onclick="add3Home()">+3</button>
+                </div>
+            </div>
+            <button id="reset-el" onclick="reset()">Reset</button>
+            <div>
+                <h3 class="caption">Guest</h3>
+                <div class="box">
+                    <h1 class="scores" id="guest-el">0</h1>
+                </div>
+                <div>
+                    <button onclick="add1Guest()">+1</button>
+                    <button onclick="add2Guest()">+2</button>
+                    <button onclick="add3Guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
